@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_sorted">
+
+    <fragment
+        android:id="@+id/nav_sorted"
+        android:name="ru.pnzgu.stringapp.ui.sorted.SortedFragment"
+        android:label="@string/menu_sorted"
+        tools:layout="@layout/fragment_sorted"/>
+
+    <fragment
+        android:id="@+id/nav_hash"
+        android:name="ru.pnzgu.stringapp.ui.hash.HashFragment"
+        android:label="@string/menu_hash"
+        tools:layout="@layout/fragment_hash" />
+
+    <fragment
+        android:id="@+id/nav_tree"
+        android:name="ru.pnzgu.stringapp.ui.tree.Tree"
+        android:label="@string/menu_tree"
+        tools:layout="@layout/fragment_tree" />
+</navigation>

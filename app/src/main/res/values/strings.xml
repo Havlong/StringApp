@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StringApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Евгений &lt;Havlong&gt; Гришин</string>
+    <string name="nav_header_subtitle">grishin_evgenii@inbox.ru</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_sorted">Отсортированный массив</string>
+    <string name="menu_hash">Хэширование</string>
+    <string name="menu_tree">Дерево</string>
+</resources>

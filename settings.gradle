@@ -1,0 +1,2 @@
+rootProject.name='StringApp'
+include ':app'
