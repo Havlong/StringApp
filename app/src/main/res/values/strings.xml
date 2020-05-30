@@ -10,4 +10,18 @@
     <string name="menu_sorted">Отсортированный массив</string>
     <string name="menu_hash">Хэширование</string>
     <string name="menu_tree">Дерево</string>
+    <string name="menu_main">Запуск тестирования</string>
+    <string name="time_label">Время:</string>
+    <string name="time_avg_label">Среднее время:</string>
+    <string name="cmp_label">Сравнений:</string>
+    <string name="cmp_avg_label">Сравнений в среднем:</string>
+    <string name="found_label">Найдено ключей:</string>
+    <string name="header_hash">Результаты тестирования полиномиального хеширования</string>
+    <string name="header_sorted">Результаты тестирования отсортированного массива</string>
+    <string name="header_tree">Результаты тестирования дерева цифрового поиска</string>
+    <string name="header_main">Введите количество и размер генерируемых ключей</string>
+    <string name="limits_desc">Не выбирайте количество более 10000 и размер более 50 знаков</string>
+    <string name="n">n</string>
+    <string name="k">k</string>
+    <string name="start">Старт</string>
 </resources>
