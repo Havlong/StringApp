@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_sorted, R.id.nav_hash, R.id.nav_tree
+                R.id.nav_main, R.id.nav_sorted, R.id.nav_hash, R.id.nav_tree
             ), drawerLayout
         )
 

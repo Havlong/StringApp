@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/nav_sorted">
+    app:startDestination="@id/nav_main">
 
     <fragment
         android:id="@+id/nav_sorted"
@@ -19,7 +19,13 @@
 
     <fragment
         android:id="@+id/nav_tree"
-        android:name="ru.pnzgu.stringapp.ui.tree.Tree"
+        android:name="ru.pnzgu.stringapp.ui.tree.TreeFragment"
         android:label="@string/menu_tree"
         tools:layout="@layout/fragment_tree" />
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="ru.pnzgu.stringapp.ui.main.MainFragment"
+        android:label="@string/menu_main"
+        tools:layout="@layout/main_fragment" />
 </navigation>
