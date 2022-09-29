@@ -24,6 +24,6 @@
     <string name="n">n</string>
     <string name="k">k</string>
     <string name="start">Старт</string>
-    <string name="time_placeholder">%1$d мс</string>
-    <string name="keys_placeholder">%1$d ключей</string>
+    <string name="time_placeholder">%1$.1f мс</string>
+    <string name="keys_placeholder">%1$.1f ключей</string>
 </resources>
