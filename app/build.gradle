@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "ru.pnzgu.stringapp"
-        minSdkVersion 21
-        targetSdkVersion 32
+        minSdkVersion 26
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation 'ru.havlong:digital-tree:1.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.core:core-ktx:1.9.0'
