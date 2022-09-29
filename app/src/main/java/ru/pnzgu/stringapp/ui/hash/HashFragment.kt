@@ -26,11 +26,11 @@ class HashFragment : Fragment() {
         val cmpAvgField: TextView = root.findViewById(R.id.cmpAvgField)
         val foundField: TextView = root.findViewById(R.id.foundField)
 
-        timeField.text = "${hashViewModel.time.value} мс"
-        timeAvgField.text = "${hashViewModel.timeAverage.value} мс"
+        timeField.text = getString(R.string.time_placeholder, hashViewModel.time.value)
+        timeAvgField.text = getString(R.string.time_placeholder, hashViewModel.timeAverage.value)
         cmpField.text = "${hashViewModel.comparisonCount.value}"
         cmpAvgField.text = "${hashViewModel.comparisonAverage.value}"
-        foundField.text = "${hashViewModel.foundCount.value} ключей"
+        foundField.text = getString(R.string.keys_placeholder, hashViewModel.foundCount.value)
 
         return root
     }

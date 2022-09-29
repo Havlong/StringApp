@@ -25,11 +25,12 @@ class TreeFragment : Fragment() {
         val cmpAvgField: TextView = root.findViewById(R.id.cmpAvgField)
         val foundField: TextView = root.findViewById(R.id.foundField)
 
-        timeField.text = "${treeViewModel.time.value} мс"
-        timeAvgField.text = "${treeViewModel.timeAverage.value} мс"
+        timeField.text = getString(R.string.time_placeholder, treeViewModel.time.value)
+        timeAvgField.text = getString(R.string.time_placeholder, treeViewModel.timeAverage.value)
         cmpField.text = "${treeViewModel.comparisonCount.value}"
         cmpAvgField.text = "${treeViewModel.comparisonAverage.value}"
-        foundField.text = "${treeViewModel.foundCount.value} ключей"
+        foundField.text = getString(R.string.keys_placeholder, treeViewModel.foundCount.value)
+
         return root
     }
 }
